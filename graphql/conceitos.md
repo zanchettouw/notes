@@ -16,11 +16,17 @@
 
 #### Requisição utilizando Rest ####
 
-<img src="rest-api.png" style="width: 500px;">
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="./images/rest-api.png" style="max-width: 500px;">
+  <span style="font-size: 12px; margin-top: 10px;">referência: <a href="https://hasura.io/learn/graphql/intro-graphql/graphql-vs-rest/" target="_blank">Hasura</a></span>
+</div>
 
 #### Requisição utilizando GraphQL ####
 
-<img src="graphql-api.gif" style="width: 500px;">
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="./images/graphql-api.gif" style="max-width: 500px;">
+  <span style="font-size: 12px; margin-top: 10px;">referência: <a href="https://hasura.io/learn/graphql/intro-graphql/graphql-vs-rest/" target="_blank">Hasura</a></span>
+</div>
 
 ### Principais conceitos ###
 ### Queries ###
