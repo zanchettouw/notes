@@ -1,3 +1,3 @@
-# My note studies about most various topics #
+# Study notes #
 
   - [GraphQL](https://github.com/zanchettouw/notes/tree/master/graphql)
