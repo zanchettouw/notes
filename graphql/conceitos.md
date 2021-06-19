@@ -17,7 +17,7 @@
 #### Requisição utilizando Rest ####
 
 <img src="./images/rest-api.png" width="500">
-<span style="font-size: 12px; margin-top: 10px;">referência: <a href="https://hasura.io/learn/graphql/intro-graphql/graphql-vs-rest/" target="_blank">Hasura</a></span>style="max-width: 500px;"
+<span style="font-size: 12px; margin-top: 10px;">referência: <a href="https://hasura.io/learn/graphql/intro-graphql/graphql-vs-rest/" target="_blank">Hasura</a></span>
 
 #### Requisição utilizando GraphQL ####
 
