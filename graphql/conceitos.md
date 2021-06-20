@@ -2,7 +2,6 @@
 
 - [O que é o GraphQL?](#o-que-é-o-graphql)
 - [GraphQL vs REST](#graphql-vs-rest)
-- [Principais conceitos](#principais-conceitos)
 - [Queries](#queries)
 - [Mutations](#mutations)
 - [Subscriptions](#subscriptions)
@@ -15,16 +14,82 @@
 ### GraphQL x REST ###
 
 #### Requisição utilizando Rest ####
+Essa é a maneira que faríamos as requisições para uma api REST nos retornar o endereço de um usuário.
 
 <img src="./images/rest-api.png" width="500">
 <span style="font-size: 12px;">referência: <a href="https://hasura.io/learn/graphql/intro-graphql/graphql-vs-rest/" target="_blank">Hasura</a></span>
 
 #### Requisição utilizando GraphQL ####
+E essa é a meneira que conseguiríamos as mesmas informações através de uma requisição para uma api GraphQL
 
 <img src="./images/graphql-api.gif" width="500">
 <span style="font-size: 12px;">referência: <a href="https://hasura.io/learn/graphql/intro-graphql/graphql-vs-rest/" target="_blank">Hasura</a></span>
 
-### Principais conceitos ###
+#### Alguns dos benefícios do GraphQL ####
+
+- <strong>Mantém os retornos enxutos:</strong> Como todas as requisições deverão retornar exatamente o modelo solicitado, evita que dados desnecessário sejam retornados.
+
+- <strong>Diminui a necessidade de multiplas requisições:</strong> Cada requisição terá exatamente o que necessita, ou seja, não precisa fazer mais de uma.
+
+
+Alguns termos do REST podem ser traduzidos da seguinte maneira para o universo do GraphQL
+
+<table>
+  <thead>
+    <tr>
+      <th>Requisição</th>
+      <th>Rest</th>
+      <th>GraphQL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Solicitar informações
+      </td>
+      <td>
+        GET
+      </td>
+      <td>
+        Query
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Persistir informação
+      </td>
+      <td>
+        POST
+      </td>
+      <td>
+        Mutation
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Atualizar/deletar informação
+      </td>
+      <td>
+        PUT/PATCH/DELETE
+      </td>
+      <td>
+        Mutation
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Watching/subscribing informação
+      </td>
+      <td>
+        -
+      </td>
+      <td>
+        subscription
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Queries ###
 
 ### Mutations ###

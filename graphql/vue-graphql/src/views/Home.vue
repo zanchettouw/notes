@@ -1,18 +1,38 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="overlay">
+    <div class="overlay-content">
+      <div class="overlay-heading">
+        Welcome to the GraphQL tutorial app
+      </div>
+      <div class="overlay-message">
+        Please login to continue
+      </div>
+      <div class="overlay-action">
+        <button v-on:click="handleLogin" class="login-btn">Log in</button>
+      </div>
+    </div>
+
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
-export default defineComponent({
-  name: 'Home',
-  components: {
-    HelloWorld,
+
+<script>
+export default {
+  name: "home",
+  methods: {
+    handleLoginEvent(data) {
+      this.isAuthenticated = data.loggedIn;
+      this.$router.push('/home');
+    },
+    handleLogin() {
+      this.$auth.login();
+    }
   },
-});
+  data() {
+    return {
+      isAuthenticated: false,
+    };
+  },
+};
 </script>

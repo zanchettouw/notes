@@ -1,34 +1,18 @@
-# vue-graphql
+Tutorial
+--------
 
-## Project setup
-```
-yarn install
-```
+- [Vue](https://learn.hasura.io/graphql/vue/introduction)
+- [Hasura GraphQL Endpoint](https://learn.hasura.io/graphql)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Tech stack
+----------
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- Frontend
+    - Vue 2.6+
+    - Vue Apollo
 
-### Run your unit tests
-```
-yarn test:unit
-```
+Run the Vue app
+---------------
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+Run `npm run serve` to start the todo app.
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
