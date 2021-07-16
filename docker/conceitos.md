@@ -10,3 +10,8 @@
 - Podemos rodar vários containers simultaneamente
 
 ### Container x Imagem
+
+- Imagem é o projeto/serviço/aplicação que será executada pelo container, todas as instruções estarão declaradas nela
+- Container é o Docker rodando alguma imagem, consequentemente executando algum código proposto por ela.
+
+-> Fluxo: programamos uma imagem e a executamos por meio de um container
